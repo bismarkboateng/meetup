@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Meetup | Home Page {%endblock %}
+
+{% block css %}
+<link rel="stylesheet" href={% static "css/index.css" %} >
+{% endblock %}
+
+
+{% block content %}
+
+<header class="meetup__header">
+    <h1>DjangoMeetups</h1>
+    <h4>We got great meetups coming up!<h4>
+    <p>Find the one that best suits your needs!</p>
+</header>
+
+<section class="meetup__main">
+    <h3>Upcoming Meetups</h3>
+
+    <div class="meetup__main-card">
+        <div class="meetup__main-card__content">
+            <div> 
+                <img src="#" alt="image" />
+                <h1> A First Meetup </h1>
+                <p> New York </p>
+            </div>
+
+            <div class="meetup__main-card__content-btn">
+                <a href="{% url 'detail' %}">More Details</a>
+            </div>
+        </div>
+
+        <div class="meetup__main-card__content">
+            <div> 
+                <img src="#" alt="image" />
+                <h1> A Second Meetup </h1>
+                <p> New York </p>
+            </div>
+
+            <div class="meetup__main-card__content-btn">
+                <a href="{% url 'detail' %}">More Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

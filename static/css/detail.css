@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a791c2;
+}
+
+.meetup__details {
+    border: 5px solid #221954;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 15rem;
+
+    border-radius: 10px;
+}
+
+.meetup__details-content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.meetup__details-content h1 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+.meetup__details-content p {
+    font-style: italic;
+    padding-bottom: 1.5rem;
+} 
+
+a {
+    text-decoration: none;
+    color: #221954;
+}
+
+.meetup__details-content h2 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+
+
+.meetup__details-content h5 {
+    font-size: 30px;
+}
+
+.meetup__nav {
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 20px;
+}
