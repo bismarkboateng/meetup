@@ -14,3 +14,8 @@ class IndexView(View):
 class DetailPage(View):
     def get(self, request):
         return render(request, "meet_detail.html")
+    
+
+class FillForm(View):
+    def get(self, request):
+        return render(request, "form.html")

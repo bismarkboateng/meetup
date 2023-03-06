@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a791c2;
+}
+
+.meetup__inputs-labels {
+    display: flex;
+
+    flex-direction: column;
+    padding: 5px;
+
+    margin: 1rem;
+
+}
+
+.meetup__form {
+    width: 50%;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.meetup__inputs-labels input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    border: 1px solid purple;
+}
+
+/* input[type=text]:focus {
+    border: 1px solid white;
+} */
+
+.meetup__inputs-labels input:focus {
+    border: 1px solid white;
+}
+
+.meetup__form-btn {
+    padding: 0 0 0.5rem 0.5rem;
+}
+.meetup__form button {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.meetup__form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.meetup__form h1 {
+    padding-top: 3px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

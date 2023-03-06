@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Meetup | Form {% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="meetup__form-section">
+
+    <form method="post" action="#" class="meetup__form">
+        <a href="{% url 'index' %}"> <h1>Django Meetup</h1></a>
+        <div class="meetup__inputs-labels">
+            <label>Name: </label>
+            <input name="Name" type="text" placeholder="Name: " />
+
+            <label>Location: </label>
+            <input name="Location" type="text" placeholder="Location: " />
+
+            <label>Email: </label>
+            <input name="Email" type="text" placholder="Email: " />
+        </div>
+
+        <div class="meetup__form-btn">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+{% endblock %}
