@@ -1,0 +1,39 @@
+{% extends '../base.html' %}
+{% load static %}
+
+{% block title %} Account | Registration {% endblock %}
+
+{% block css %}
+<link rel="styelsheet" href="{% static 'css/accounts/registration.css' %}">
+{% endblock %}
+
+{% block content %}
+
+
+<section class="meetup__register">
+    <form class="meetup__register-form">
+        <h1>REGISTER TO DJANGO MEETUP </h1>
+        
+        <div class="meetup__register-inputs">
+            <label>First name</label>
+            <input type="text" placeholder="firstname" />
+
+            <label>Last name</label>
+            <input type="text" placeholder="lastname" />
+
+            <label>Email</label><br>
+            <input type="text" placeholder="me@email.com" />
+    
+            <label>Password</label><br>
+            <input type="Password" placeholder="*****" /> 
+        </div>
+
+
+        <div class="meetup__login-btn__signin">
+            <button type="submit">REGISTER</button>
+        </div>
+
+    </form>
+</section>
+
+{% endblock%}

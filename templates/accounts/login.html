@@ -1,0 +1,43 @@
+{% extends '../base.html' %}
+{% load static %}
+
+{% block title %} Account | Login {% endblock %}
+
+
+{% block css %} 
+<link rel="stylesheet" href="{% static 'css/accounts/login.css' %}" >
+{% endblock %}
+
+{% block content %}
+
+
+<section class="meetup__login">
+    <form class="meetup__login-form">
+        <h1>SIGN IN TO DJANGO MEETUP </h1>
+        
+        <div class="meetup__login-inputs">
+            <div class="meetup__login-inputs__first">
+                <label>Email</label><br>
+                <input type="text" placeholder="me@email.com" />
+            </div>
+    
+            <div class="meetup__login-inputs__second">
+                <label>Password</label><br>
+                <input type="Password" placeholder="*****" />
+            </div>
+        </div>
+
+
+        <div class="meetup__login-checkbox">
+            <input type="checkbox" /> Keep me signed in 
+        </div>
+
+
+        <div class="meetup__login-btn__signin">
+            <button type="submit">SIGN IN</button>
+        </div>
+
+    </form>
+</section>
+
+{% endblock %}

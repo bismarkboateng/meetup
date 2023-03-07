@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #a791c2;
+}
+
+.meetup__login {
+    border: 1px solid #221954;
+
+    margin: auto;
+    margin-top: 5rem;
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: space-between; */
+
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    outline: 0;
+    /* border: 0; */
+}
+
+.meetup__login-form h1 {
+    padding-bottom: 3px;
+
+    font-weight: 800;
+    color: #221954;
+}
+
+.meetup__login-form {
+    padding: 5px;
+}
+
+.meetup__login-inputs {
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* .meetup__login-inputs__first {
+    border: 1px solid red;
+} */
+
+.meetup__login-inputs__first {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.meetup__login-checkbox {
+    margin-top: 2rem;
+}
+
+.meetup__login-btn__signin {
+    margin-top: 2rem;
+}
+
+
+.meetup__login-inputs__first input {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    outline: 0;
+    border: 1px solid #221954;
+    width: 80%;
+}
+
+.meetup__login-inputs__second input {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    outline: 0;
+    border: 1px solid #221954; 
+    width: 80%;
+}
+
+
+.meetup__login-btn__signin button {
+    padding: 0.7rem;
+    border-radius: 3px;
+    border: 3px solid #221954;
+    outline: 0;
+    color: white;
+    background-color: #221954;
+}
+
+/* 
+label {
+    margin-bottom: 2px;
+} */
+
+.meetup__login-inputs__second input {
+    margin-top: 5px;
+}
+
+
+.meetup__login-inputs__first input {
+    margin-top: 5px;
+}

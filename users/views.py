@@ -19,3 +19,13 @@ class DetailPage(View):
 class FillForm(View):
     def get(self, request):
         return render(request, "form.html")
+    
+
+class LoginPageView(View):
+    def get(self, request):
+        return render(request, 'accounts/login.html')
+    
+
+class RegisterPageView(View):
+    def get(self, request):
+        return render(request, 'accounts/registration.html')
